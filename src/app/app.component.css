@@ -1,0 +1,4 @@
+.top-container {
+  display: grid;
+  grid-template-columns: 254px 1fr 409px;
+}
