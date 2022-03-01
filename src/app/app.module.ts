@@ -5,12 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { HeaderComponent } from './components/header/header.component';
+import { RightPaneComponent } from './components/right-pane/right-pane.component';
+import { CtaComponent } from './components/cta/cta.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SidebarComponent,
-    HeaderComponent
+    HeaderComponent,
+    RightPaneComponent,
+    CtaComponent
   ],
   imports: [
     BrowserModule,
