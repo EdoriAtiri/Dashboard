@@ -17,17 +17,22 @@
     <div class="grid grid-cols-7 place-items-center font-bold mb-6 gap-6">
       <span *ngFor="let day of days" class="">{{ day }}</span>
     </div>
-    <div class="grid grid-cols-7 place-items-center gap-6 text-sm">
-      <span class="text-black opacity-20">26</span
-      ><span class="text-black opacity-20">27</span
-      ><span class="text-black opacity-20">28</span
-      ><span class="text-black opacity-20">29</span
+    <div class="calendar grid grid-cols-7 place-items-center gap-4 text-sm">
+      <span class="text-black opacity-20">26</span>
+      <span class="text-black opacity-20">27</span>
+      <span class="text-black opacity-20">28</span>
+      <span class="text-black opacity-20">29</span
       ><span class="text-black opacity-20">30</span
       ><span class="text-black opacity-20">31</span>
       <span
         class="text-ha-blue"
-        *ngFor="let no of daysInMonth"
-        ngClass="{'text-orange-600':{{ no == 7 }}}"
+        *ngFor="let no of daysInMonth; index as i"
+        [ngClass]="{
+          orange_gradient: no === 7,
+          purple_gradient: no === 28,
+          selected: no === 17,
+          selected2: no === 18
+        }"
         >{{ no }}</span
       >
       <span class="text-black opacity-20">1</span

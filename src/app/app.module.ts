@@ -8,6 +8,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { RightPaneComponent } from './components/right-pane/right-pane.component';
 import { CtaComponent } from './components/cta/cta.component';
 import { CalendarComponent } from './components/calendar/calendar.component';
+import { CommsComponent } from './components/comms/comms.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { CalendarComponent } from './components/calendar/calendar.component';
     HeaderComponent,
     RightPaneComponent,
     CtaComponent,
-    CalendarComponent
+    CalendarComponent,
+    CommsComponent
   ],
   imports: [
     BrowserModule,
