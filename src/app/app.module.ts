@@ -7,6 +7,7 @@ import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { HeaderComponent } from './components/header/header.component';
 import { RightPaneComponent } from './components/right-pane/right-pane.component';
 import { CtaComponent } from './components/cta/cta.component';
+import { CalendarComponent } from './components/calendar/calendar.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { CtaComponent } from './components/cta/cta.component';
     SidebarComponent,
     HeaderComponent,
     RightPaneComponent,
-    CtaComponent
+    CtaComponent,
+    CalendarComponent
   ],
   imports: [
     BrowserModule,
