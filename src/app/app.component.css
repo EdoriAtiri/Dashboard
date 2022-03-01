@@ -1,4 +1,21 @@
 .top-container {
   display: grid;
   grid-template-columns: 254px 1fr 409px;
+  grid-template-rows: 80px auto;
+  grid-template-areas:
+    "ls head head"
+    "ls main rs";
+}
+
+.header {
+  grid-area: head;
+}
+.left-sidebar {
+  grid-area: ls;
+}
+.right-sidebar {
+  grid-area: rs;
+}
+.main {
+  grid-area: main;
 }

@@ -9,6 +9,9 @@ module.exports = {
       fontSize: {
         tiny: ".875rem",
       },
+      fontFamily: {
+        roboto: ["Roboto", "sans-serif"],
+      },
     },
   },
   plugins: [],
