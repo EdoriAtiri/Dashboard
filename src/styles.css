@@ -8,4 +8,8 @@
   .list_style {
     @apply w-full flex justify-start gap-3;
   }
+
+  .bar {
+    @apply w-4 sm:w-6 md:w-8 mb-[10px] rounded-t-md;
+  }
 }

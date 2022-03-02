@@ -62,7 +62,7 @@
 
   <!-- Bar Chart -->
   <div class="flex items-end justify-between py-10 md:p-[26px] h-fit">
-    <div *ngFor="let stats of progress_stats">
+    <!-- <div class="flex flex-col" *ngFor="let stats of progress_stats">
       <div
         [ngClass]="{
           'bg-gradient-to-t from-[#DD95FF] to-[#8287FD]': stats.month === 'Sep'
@@ -74,14 +74,51 @@
       <span class="text-xs text-half-black grid place-content-center">{{
         stats.month
       }}</span>
-    </div>
-    <!-- <div>
-      <div class="'h-[152px] w-8 mb-[10px] bg-[#F4F6FA] rounded-t-md"></div>
+    </div> -->
+
+    <div class="flex flex-col">
+      <div class="h-[152px] bg-[#F4F6FA]"></div>
       <span class="text-xs text-half-black grid place-content-center">Jan</span>
     </div>
-    <div>
-      <div class="'h-[123px] w-8 mb-[10px] bg-[#F4F6FA] rounded-t-md"></div>
+    <div class="flex flex-col">
+      <div class="h-[123px] bg-[#F4F6FA]"></div>
       <span class="text-xs text-half-black grid place-content-center">Feb</span>
-    </div> -->
+    </div>
+    <div class="flex flex-col">
+      <div class="h-[75px] bg-[#F4F6FA]"></div>
+      <span class="text-xs text-half-black grid place-content-center">Mar</span>
+    </div>
+    <div class="flex flex-col">
+      <div class="h-[143px] bg-[#F4F6FA]"></div>
+      <span class="text-xs text-half-black grid place-content-center">Apr</span>
+    </div>
+    <div class="flex flex-col">
+      <div class="h-[184px] bg-[#F4F6FA]"></div>
+      <span class="text-xs text-half-black grid place-content-center">May</span>
+    </div>
+    <div class="flex flex-col">
+      <div class="h-[143px] bg-[#F4F6FA]"></div>
+      <span class="text-xs text-half-black grid place-content-center">Jun</span>
+    </div>
+    <div class="flex flex-col">
+      <div class="h-[100px] bg-[#F4F6FA]"></div>
+      <span class="text-xs text-half-black grid place-content-center">Jul</span>
+    </div>
+    <div class="flex flex-col">
+      <div class="h-[120px] bg-[#F4F6FA]"></div>
+      <span class="text-xs text-half-black grid place-content-center">Aug</span>
+    </div>
+    <div class="flex flex-col">
+      <div class="h-[168px] bg-gradient-to-t from-[#DD95FF] to-[#8287FD]"></div>
+      <span class="text-xs text-half-black grid place-content-center">Sep</span>
+    </div>
+    <div class="flex flex-col">
+      <div class="h-[120px] bg-[#F4F6FA]"></div>
+      <span class="text-xs text-half-black grid place-content-center">Oct</span>
+    </div>
+    <div class="flex flex-col">
+      <div class="h-[145px] bg-[#F4F6FA]"></div>
+      <span class="text-xs text-half-black grid place-content-center">Nov</span>
+    </div>
   </div>
 </div>

@@ -21,6 +21,12 @@
   grid-area: main;
 }
 
+/* @media (min-width: 500px) {
+  .top-container {
+    grid-template-rows: 60px auto;
+  }
+} */
+
 @media (min-width: 768px) {
   .top-container {
     display: grid;
