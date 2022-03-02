@@ -1,5 +1,5 @@
 <!-- Task Stats -->
-<div class="mt-14 flex justify-between gap-5">
+<div class="mt-14 flex md:justify-between gap-2 md:gap-5">
   <div class="flex items-center gap-2">
     <div class="relative w-fit">
       <img
@@ -61,19 +61,27 @@
   </div>
 
   <!-- Bar Chart -->
-  <div class="flex items-end justify-between p-[26px]">
+  <div class="flex items-end justify-between py-10 md:p-[26px] h-fit">
     <div *ngFor="let stats of progress_stats">
       <div
         [ngClass]="{
           'bg-gradient-to-t from-[#DD95FF] to-[#8287FD]': stats.month === 'Sep'
         }"
-        class="{{
-          'h-[' + stats.progress + 'px]'
-        }} w-8 mb-[10px] bg-[#F4F6FA] rounded-t-md"
+        class="h-[{{
+          stats.progress
+        }}px] w-8 mb-[10px] bg-[#F4F6FA] rounded-t-md"
       ></div>
       <span class="text-xs text-half-black grid place-content-center">{{
         stats.month
       }}</span>
     </div>
+    <!-- <div>
+      <div class="'h-[152px] w-8 mb-[10px] bg-[#F4F6FA] rounded-t-md"></div>
+      <span class="text-xs text-half-black grid place-content-center">Jan</span>
+    </div>
+    <div>
+      <div class="'h-[123px] w-8 mb-[10px] bg-[#F4F6FA] rounded-t-md"></div>
+      <span class="text-xs text-half-black grid place-content-center">Feb</span>
+    </div> -->
   </div>
 </div>

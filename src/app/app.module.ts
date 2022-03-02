@@ -12,6 +12,7 @@ import { CommsComponent } from './components/comms/comms.component';
 import { OngoingProjectsComponent } from './components/ongoing-projects/ongoing-projects.component';
 import { MainComponent } from './components/main/main.component';
 import { StatsComponent } from './components/stats/stats.component';
+import { HamburgerComponent } from './components/hamburger/hamburger.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { StatsComponent } from './components/stats/stats.component';
     CommsComponent,
     OngoingProjectsComponent,
     MainComponent,
-    StatsComponent
+    StatsComponent,
+    HamburgerComponent
   ],
   imports: [
     BrowserModule,
