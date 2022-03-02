@@ -10,6 +10,6 @@
   }
 
   .bar {
-    @apply w-4 sm:w-6 md:w-8 mb-[10px] rounded-t-md;
+    @apply w-4 sm:w-6 md:w-8 rounded-t-md mb-[10px];
   }
 }
