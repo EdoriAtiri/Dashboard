@@ -9,6 +9,8 @@ import { RightPaneComponent } from './components/right-pane/right-pane.component
 import { CtaComponent } from './components/cta/cta.component';
 import { CalendarComponent } from './components/calendar/calendar.component';
 import { CommsComponent } from './components/comms/comms.component';
+import { OngoingProjectsComponent } from './components/ongoing-projects/ongoing-projects.component';
+import { MainComponent } from './components/main/main.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { CommsComponent } from './components/comms/comms.component';
     RightPaneComponent,
     CtaComponent,
     CalendarComponent,
-    CommsComponent
+    CommsComponent,
+    OngoingProjectsComponent,
+    MainComponent
   ],
   imports: [
     BrowserModule,
