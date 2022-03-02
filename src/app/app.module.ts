@@ -11,6 +11,7 @@ import { CalendarComponent } from './components/calendar/calendar.component';
 import { CommsComponent } from './components/comms/comms.component';
 import { OngoingProjectsComponent } from './components/ongoing-projects/ongoing-projects.component';
 import { MainComponent } from './components/main/main.component';
+import { StatsComponent } from './components/stats/stats.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { MainComponent } from './components/main/main.component';
     CalendarComponent,
     CommsComponent,
     OngoingProjectsComponent,
-    MainComponent
+    MainComponent,
+    StatsComponent
   ],
   imports: [
     BrowserModule,

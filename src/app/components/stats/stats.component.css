@@ -1,0 +1,39 @@
+.stat-curve {
+  border-radius: 50%;
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+  background-color: white;
+  border-top: 5px solid transparent;
+  transform: rotate(320deg);
+}
+
+.stat-curve--1 {
+  border-left: 7px solid #e39f43;
+  border-right: 7px solid #e39f43;
+  border-bottom: 7px solid #e39f43;
+}
+.stat-curve--2 {
+  border-left: 7px solid #0ec23e;
+  border-right: 7px solid #0ec23e;
+  border-bottom: 7px solid #0ec23e;
+}
+.stat-curve--3 {
+  border-left: 7px solid #ff8b85;
+  border-right: 7px solid #ff8b85;
+  border-bottom: 7px solid #ff8b85;
+}
+
+.arrow {
+  width: 14.7px;
+  height: 14.7px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+}
+
+.flip {
+  transform: rotate(180deg) translate(50%, 50%);
+}
